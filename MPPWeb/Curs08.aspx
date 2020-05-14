@@ -29,10 +29,6 @@
     </asp:AccessDataSource>
 
     
-    <asp:AccessDataSource ID="ADS3" runat="server" 
-        DataFile="~/App_Data/BD1.mdb" SelectCommand="SELECT * FROM [Produse]">
-    </asp:AccessDataSource>
-
     <asp:Label ID="labeltitlu" runat="server" 
         Text="Legatura one to many intre categorii si produse" 
         style="position: absolute; top: 56px; left: 194px;" Font-Bold="True" 
@@ -57,7 +53,7 @@
                 SortExpression="PretVanzare" />
             <asp:BoundField DataField="IdCategorie" HeaderText="IdCategorie" 
                 SortExpression="IdCategorie" />
-            <asp:DynamicField DataField="SpPoza" HeaderText="SpPoza" />
+            <asp:BoundField DataField="SpPoza" HeaderText="SpPoza" />
             <asp:ImageField DataImageUrlField="SpPoza">
                 <ControlStyle Height="80px" Width="80px" />
             </asp:ImageField>
@@ -79,10 +75,6 @@
         style="position: absolute; top: 106px; left: 25px; height: 128px; width: 78px;" 
         AutoPostBack="True" DataSourceID="ADS1" DataTextField="DCategorie" 
         DataValueField="IdCategorie"></asp:ListBox>
-
-
-    <asp:Image ID="Image1" runat="server" 
-        style="position: absolute; top: 108px; left: 830px; height: 122px; width: 150px;"/>
 
 
 

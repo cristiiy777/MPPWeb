@@ -40,15 +40,6 @@ namespace MPPWeb {
         protected global::System.Web.UI.WebControls.AccessDataSource ADS2;
         
         /// <summary>
-        /// ADS3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.AccessDataSource ADS3;
-        
-        /// <summary>
         /// labeltitlu control.
         /// </summary>
         /// <remarks>
@@ -74,14 +65,5 @@ namespace MPPWeb {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListBox ListBox1;
-        
-        /// <summary>
-        /// Image1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
     }
 }
