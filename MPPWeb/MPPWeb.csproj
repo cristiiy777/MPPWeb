@@ -72,6 +72,13 @@
     <Compile Include="Curs07.aspx.designer.cs">
       <DependentUpon>Curs07.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Curs08.aspx.cs">
+      <DependentUpon>Curs08.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curs08.aspx.designer.cs">
+      <DependentUpon>Curs08.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -80,6 +87,7 @@
   <ItemGroup>
     <Content Include="App_Data\BD1.mdb" />
     <Content Include="Curs07.aspx" />
+    <Content Include="Curs08.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Web.config" />
