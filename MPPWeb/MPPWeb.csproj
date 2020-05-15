@@ -86,6 +86,34 @@
     <Compile Include="Curs09.aspx.designer.cs">
       <DependentUpon>Curs09.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Curs11_Delete.aspx.cs">
+      <DependentUpon>Curs11_Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curs11_Delete.aspx.designer.cs">
+      <DependentUpon>Curs11_Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curs11_Insert.aspx.cs">
+      <DependentUpon>Curs11_Insert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curs11_Insert.aspx.designer.cs">
+      <DependentUpon>Curs11_Insert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curs11_Logare.aspx.cs">
+      <DependentUpon>Curs11_Logare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curs11_Logare.aspx.designer.cs">
+      <DependentUpon>Curs11_Logare.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curs11_Update.aspx.cs">
+      <DependentUpon>Curs11_Update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curs11_Update.aspx.designer.cs">
+      <DependentUpon>Curs11_Update.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -93,9 +121,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\BD1.mdb" />
+    <Content Include="App_Data\BD2.mdb" />
     <Content Include="Curs07.aspx" />
     <Content Include="Curs08.aspx" />
     <Content Include="Curs09.aspx" />
+    <Content Include="Curs11_Delete.aspx" />
+    <Content Include="Curs11_Insert.aspx" />
+    <Content Include="Curs11_Logare.aspx" />
+    <Content Include="Curs11_Update.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Web.config" />
