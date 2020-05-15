@@ -26,7 +26,8 @@ namespace MPPWeb
             Panel1.Visible = false;
             Button1.Enabled = true;
         }
-        protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)
+
+        protected void CV1_ServerValidate(object source, ServerValidateEventArgs args)
         {
             OleDbConnection con = new OleDbConnection();
             con.ConnectionString = AccessDataSource1.ConnectionString;
@@ -39,7 +40,7 @@ namespace MPPWeb
             if (rd.Read())
             {
                 args.IsValid = false;
-                CustomValidator1.ErrorMessage = "Produs deja existent";
+                CV1.ErrorMessage = "Produs deja existent";
                 con.Close();
             }
             else
@@ -64,15 +65,16 @@ namespace MPPWeb
             AccessDataSource1.InsertParameters[1].DefaultValue = DDLUM.Text;
             AccessDataSource1.InsertParameters[2].DefaultValue = DDLTVA.Text;
             AccessDataSource1.InsertParameters[3].DefaultValue = TxtPret.Text;
-            AccessDataSource1.InsertParameters[4].DefaultValue = "1";
+            AccessDataSource1.InsertParameters[4].DefaultValue = TxtCategorie.Text;
             AccessDataSource1.Insert();
             nullControale();
         }
 
         protected void BtnConfirma_Click(object sender, EventArgs e)
         {
-            adaugaInregistrare();
+
         }
+
 
     }
 }
