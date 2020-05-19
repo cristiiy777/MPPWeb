@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<oferta>
+  <Produs Id="1" Denumire="Produs 01" Um="Buc" Pret="15" />
+  <Produs Id="2" Denumire="Produs 02" Um="Buc" Pret="20" />
+  <Produs Id="3" Denumire="Produs 03" Um="Kg" Pret="10" />
+  <Produs Id="4" Denumire="Produs 04" Um="Mp" Pret="30" />
+</oferta>

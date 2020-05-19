@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace MPPWeb
 {
-    public partial class Curs09 : System.Web.UI.Page
+    public partial class Curs09_SQL_DB : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -31,7 +31,9 @@ VALUES (?, ?, ?, ?)" SelectCommand="SELECT [IdProdus], [DProdus], [UM], [CotaTVA
     </asp:AccessDataSource>
     <asp:Label ID="Label1" runat="server" Text="Oferta produse" Font-Size="16"></asp:Label>
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="IdProdus"
-        DataSourceID="AccessDataSource1">
+        DataSourceID="AccessDataSource1" CellPadding="4" ForeColor="#333333" 
+        GridLines="None">
+        <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:CommandField ButtonType="Button" SelectText="" ShowSelectButton="True" />
             <asp:BoundField DataField="IdProdus" HeaderText="IdProdus" InsertVisible="False"
@@ -41,7 +43,16 @@ VALUES (?, ?, ?, ?)" SelectCommand="SELECT [IdProdus], [DProdus], [UM], [CotaTVA
             <asp:BoundField DataField="CotaTVA" HeaderText="CotaTVA" SortExpression="CotaTVA" />
             <asp:BoundField DataField="PretVanzare" HeaderText="PretVanzare" SortExpression="PretVanzare" />
         </Columns>
-        <SelectedRowStyle BackColor="#CCCCFF" />
+        <EditRowStyle BackColor="#2461BF" />
+        <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+        <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+        <RowStyle BackColor="#EFF3FB" />
+        <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+        <SortedAscendingCellStyle BackColor="#F5F7FB" />
+        <SortedAscendingHeaderStyle BackColor="#6D95E1" />
+        <SortedDescendingCellStyle BackColor="#E9EBEF" />
+        <SortedDescendingHeaderStyle BackColor="#4870BE" />
     </asp:GridView>
     <asp:Button ID="Button1" runat="server" Text="Modifica produs" Style="position: absolute;
         top: 31px; left: 389px;" OnClick="Button1_Click" />
@@ -86,7 +97,7 @@ VALUES (?, ?, ?, ?)" SelectCommand="SELECT [IdProdus], [DProdus], [UM], [CotaTVA
         <asp:Label ID="LblTVA" runat="server" Text="TVA" Style="position: absolute; top: 100px;
             left: 23px; right: 326px;"></asp:Label>
         <asp:DropDownList ID="DdlTVA" runat="server" Style="position: absolute; top: 98px;
-            left: 87px;">
+            left: 87px; height: 17px; width: 50px;">
             <asp:ListItem></asp:ListItem>
             <asp:ListItem>0</asp:ListItem>
             <asp:ListItem>5</asp:ListItem>

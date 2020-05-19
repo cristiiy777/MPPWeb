@@ -79,12 +79,26 @@
     <Compile Include="Curs08.aspx.designer.cs">
       <DependentUpon>Curs08.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Curs09.aspx.cs">
-      <DependentUpon>Curs09.aspx</DependentUpon>
+    <Compile Include="Curs09_SQL_DB.aspx.cs">
+      <DependentUpon>Curs09_SQL_DB.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Curs09.aspx.designer.cs">
-      <DependentUpon>Curs09.aspx</DependentUpon>
+    <Compile Include="Curs09_SQL_DB.aspx.designer.cs">
+      <DependentUpon>Curs09_SQL_DB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curs09_Validatori.aspx.cs">
+      <DependentUpon>Curs09_Validatori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curs09_Validatori.aspx.designer.cs">
+      <DependentUpon>Curs09_Validatori.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Curs09_XML.aspx.cs">
+      <DependentUpon>Curs09_XML.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Curs09_XML.aspx.designer.cs">
+      <DependentUpon>Curs09_XML.aspx</DependentUpon>
     </Compile>
     <Compile Include="Curs11_Delete.aspx.cs">
       <DependentUpon>Curs11_Delete.aspx</DependentUpon>
@@ -93,12 +107,12 @@
     <Compile Include="Curs11_Delete.aspx.designer.cs">
       <DependentUpon>Curs11_Delete.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Curs11_Insert.aspx.cs">
-      <DependentUpon>Curs11_Insert.aspx</DependentUpon>
+    <Compile Include="Curs10_Insert.aspx.cs">
+      <DependentUpon>Curs10_Insert.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Curs11_Insert.aspx.designer.cs">
-      <DependentUpon>Curs11_Insert.aspx</DependentUpon>
+    <Compile Include="Curs10_Insert.aspx.designer.cs">
+      <DependentUpon>Curs10_Insert.aspx</DependentUpon>
     </Compile>
     <Compile Include="Curs11_Logare.aspx.cs">
       <DependentUpon>Curs11_Logare.aspx</DependentUpon>
@@ -122,11 +136,18 @@
   <ItemGroup>
     <Content Include="App_Data\BD1.mdb" />
     <Content Include="App_Data\BD2.mdb" />
+    <Content Include="App_Data\SQL_DB1.mdf" />
+    <Content Include="App_Data\SQL_DB1_log.ldf">
+      <DependentUpon>SQL_DB1.mdf</DependentUpon>
+    </Content>
+    <Content Include="BD.xml" />
     <Content Include="Curs07.aspx" />
     <Content Include="Curs08.aspx" />
-    <Content Include="Curs09.aspx" />
+    <Content Include="Curs09_SQL_DB.aspx" />
+    <Content Include="Curs09_Validatori.aspx" />
+    <Content Include="Curs09_XML.aspx" />
     <Content Include="Curs11_Delete.aspx" />
-    <Content Include="Curs11_Insert.aspx" />
+    <Content Include="Curs10_Insert.aspx" />
     <Content Include="Curs11_Logare.aspx" />
     <Content Include="Curs11_Update.aspx" />
     <Content Include="Global.asax" />
